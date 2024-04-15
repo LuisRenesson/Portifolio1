@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+ }
+ 
+ 
+ .conteiner {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: black;
+     color: white;
+     overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+ }
+ 
+ 
+ .projeto {
+     font-size: 25px;
+     text-decoration: none;
+     text-align: center;
+     background-color: aquamarine;
+     color: white;
+     border-radius: 10px;
+     padding: 15px;
+     margin-top: -5px;
+ }
+
+
+ .lista__habilidade {
+     font-size: 25px;
+ }
+ 
+ .lista {
+     color: red;
+     font-size: 20px;
+     position: relative;
+ }
+ 
+ 
+ .nome {
+     display: inline;
+     background-color: black;
+     font-size: 35px;
+     padding: 5px 30px 0px 40px;
+ }
+ 
+ .botao {
+    display: flex;
+    justify-content: center;
+ }
+ 
+
+ .botao__menu { 
+     text-decoration: none;
+     background-color: white;
+     text-align: center;
+     color: black;
+     border-radius: 5px;
+     padding: 10px;
+     gap: 10px;
+    margin: 5px;
+ }
+ 
+ .botao__menu:hover {
+     background-color: #97E7E1;
+     color: black;
+ }
+ 
+ .paragrafo {
+     display: flex;
+     flex-direction: column;
+     font-size: 20px;
+ }
+ 
+ 
+ 
+ .imagem {
+     border-radius: 50px;
+     width: 20%;
+     float: right;
+     padding: 0px 20px 20px 150px;
+ }
+ 
+ .rodape {
+     display: flex;
+     background-color: aquamarine;
+     color: black;
+     justify-content: center;
+ }
+ 
+ 
+ 
